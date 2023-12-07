@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetKorea", "DotNetKorea\DotNetKorea.csproj", "{B7E19B8B-7282-4D48-A08B-3C918A6B4822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetKorea.Tests", "DotNetKorea.Tests\DotNetKorea.Tests.csproj", "{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E19B8B-7282-4D48-A08B-3C918A6B4822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E19B8B-7282-4D48-A08B-3C918A6B4822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E19B8B-7282-4D48-A08B-3C918A6B4822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E19B8B-7282-4D48-A08B-3C918A6B4822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45DE82B8-2F98-4535-89AA-A171CCD481FD}
+	EndGlobalSection
+EndGlobal
