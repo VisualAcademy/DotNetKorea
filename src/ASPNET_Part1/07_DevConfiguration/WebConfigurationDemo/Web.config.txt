@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ASP.NET 응용 프로그램을 구성하는 방법에 대한 자세한 내용을 보려면
+  http://go.microsoft.com/fwlink/?LinkId=169433을 방문하십시오.
+  -->
+<configuration>
+  
+  <appSettings>
+    
+    <!-- 프로그램내에서 사용되는 설정값 저장 -->
+    <!--[1] Chart 렌더링 데이터 조회 기간: 기본값 15분 -->
+    <add key="ChartDataDuration" value="15"></add>
+    <!--[2] Chart 생성 시간 : 10초 -->
+    <add key="ChartRenderingInterval" value="10"/>
+    <!--[3] Alert 업데이트 주기 : 10초 -->
+    <add key="AlertRefreshInterval" value="10"/>
+    <!--[4] Alert 조회 기간 : 1시간 -->
+    <add key="AlertDataDuration" value="1"/>
+        
+  </appSettings>
+
+  
+  <connectionStrings>
+    <add name="ASPNETBOOKTEST_ConnectionString" connectionString="server=.;database=db;uid=sa;pwd=1234;"/>
+  </connectionStrings>
+  
+  
+  
+  <system.web>
+    <compilation debug="true" targetFramework="4.5.1" />
+    <httpRuntime targetFramework="4.5.1" />
+  </system.web>
+</configuration>

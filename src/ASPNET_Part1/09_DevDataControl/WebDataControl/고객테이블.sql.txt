@@ -1,0 +1,33 @@
+﻿-- 집계함수 연습
+
+Create Table [고객테이블]
+(
+	고객번호 Int Identity(1, 1) Primary Key,
+	이름 NVarChar(10),
+	포인트 Int
+)
+Go
+
+Insert Into 고객테이블 Values(N'홍길동', 10);
+Insert Into 고객테이블 Values(N'백두산', 20);
+Insert Into 고객테이블 Values(N'임꺽정', 30);
+
+Select * From 고객테이블;
+
+-- 합계(Sum), 평균(Avg), 카운트(Count), 최댓값(Max), 최솟값(Min)
+
+Select Sum([포인트]) As [포인트합계] From 고객테이블;
+Select Count([포인트]) As [건수] From 고객테이블;
+Select Count(*) As [전체레코드수] From 고객테이블;
+Select Avg([포인트]) As [포인트평균] From 고객테이블;
+Select Max([포인트]) As [포인트최댓값] From 고객테이블;
+Select Min([포인트]) As [포인트최솟값] From 고객테이블;
+
+-- 조건에 따른 집계함수 계산
+Select Sum([포인트]) As [포인트합계] 
+From 고객테이블
+Where 이름 Like '%두%' Or 포인트 Between 10 And 30;
+
+
+
+
