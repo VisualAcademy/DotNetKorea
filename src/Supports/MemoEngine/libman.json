@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap-datepicker@1.8.0",
+      "destination": "lib/bootstrap-datepicker/"
+    },
+    {
+      "library": "Chart.js@2.7.3",
+      "destination": "lib/chartjs/",
+      "files": ["Chart.js"]
+    }
+  ]
+}
