@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetKorea", "DotNetKorea\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetKorea.Tests", "DotNetKorea.Tests\DotNetKorea.Tests.csproj", "{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DotNetKorea.SqlServer", "DotNetKorea.SqlServer\DotNetKorea.SqlServer.sqlproj", "{F9775E14-04EA-411D-B787-B5D2B5353A36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7C2C61-FC5A-43CC-8435-21BD41FE8BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9775E14-04EA-411D-B787-B5D2B5353A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9775E14-04EA-411D-B787-B5D2B5353A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9775E14-04EA-411D-B787-B5D2B5353A36}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F9775E14-04EA-411D-B787-B5D2B5353A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9775E14-04EA-411D-B787-B5D2B5353A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9775E14-04EA-411D-B787-B5D2B5353A36}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
